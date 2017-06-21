@@ -1,5 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
-* [SPA](SPA.md)
+* [CSP](CSP.md)
 
