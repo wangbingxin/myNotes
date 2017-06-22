@@ -1,23 +1,29 @@
 ## SPA(Single Page Application,单页面应用)
 
 单页应用的优缺点：
+
 	优点：
-		1. 前后端分离
-		2. 减轻服务器压力
-		3. 用户体验良好，页面切换不需要重新加载整个页面
+		- 前后端分离
+		- 减轻服务器压力
+		- 用户体验良好，页面切换不需要重新加载整个页面
+
 	缺点：
-		1. SEO不友好
-		2. 首次加载过于庞大，耗时较多，宽带要求高
-		3. 历史记录较难管理
+		- SEO不友好
+		- 首次加载过于庞大，耗时较多，宽带要求高
+		- 历史记录较难管理
 
 ### 实现单页面的两种方式：HTML5 history API和location.hash
 
 #### history API
 
 HTML4 history API的属性方法：
+
 	history.length:历史记录中的地址个数
+
 	history.back():后退
+
 	history.forward():前进
+
 	history.go(n):在历史记录范围内去到一个指定的地址
 
 HTML5的history API新增了两个方法，一个属性，一个事件
@@ -57,8 +63,6 @@ HTML5的history API新增了两个方法，一个属性，一个事件
 	
 `hash值`变化时会触发事件
 
-	```
 	window.addEventListener("hashchange", function(e) {
 	    // do something...
 	});
-	```
