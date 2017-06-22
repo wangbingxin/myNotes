@@ -1,5 +1,5 @@
 # Summary
 
-* [CPS](CPS.md)
+* [CPS](CSP.md)
 * [SPA](SPA.md)
 
